@@ -37,9 +37,6 @@ I focus on building real-world projects that solve practical problems using AI, 
 - 🏅 Best Glorification Award  
 - 🤝 AAAI Membership & Leadership Role  
 
- 📈 GitHub Stats
-![Suyash's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true)
-
 📬 Contact Me
 - 📧 Email: suyashhadole14@gmail.com  
 - 💼 LinkedIn: https://linkedin.com/in/yourprofile  
