@@ -1,16 +1,52 @@
 ## Hi there 👋
+# 👨‍💻 Suyash Hadole Portfolio
 
-<!--
-**Suyash-portfolio/suyash-portfolio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE)  
+💡 Passionate about building intelligent systems & real-world impactful solutions  
 
-Here are some ideas to get you started:
+🌐 Live Portfolio
+🔗 https://yourusername.github.io/suyash-portfolio/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#🚀 About Me
+I am a Computer Science student specializing in Artificial Intelligence & Machine Learning.  
+I focus on building real-world projects that solve practical problems using AI, data, and modern web technologies.
+
+- 🎓 B.Tech CSE (AIML) – MITAOE (2024–2028)  
+- 🏆 AAAI Membership & Outreach Coordinator  
+- 💡 Strong interest in AI, Data Science & Web Development  
+
+🛠 Tech Stack
+- 💻 Languages: HTML, CSS, JavaScript, Python, C  
+- 📊 Data: SQL, Data Analysis  
+- 🤖 AI/ML: Machine Learning Basics, Model Building  
+- 🌐 Tools: GitHub, VS Code  
+
+📂 Featured Projects
+🌱 GrowTogether – Smart Farming Platform
+- AI-powered agriculture support system  
+- Features land verification, payment tracking, and crop monitoring  
+- Focused on real-world farmer problems  
+
+🤖 MITAOE Chatbot
+- AI-based chatbot for student assistance  
+- Handles queries related to college activities and information  
+
+📊 SQL Data Analysis Project
+- Data-driven insights using SQL  
+- Real-world dataset analysis and reporting  
+
+🏆 Achievements
+- 🥈 IIT Delhi Campus Ambassider for BEcon' 2026 
+- 🏅 Best Glorification Award  
+- 🤝 AAAI Membership & Leadership Role  
+
+ 📈 GitHub Stats
+![Suyash's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true)
+
+📬 Contact Me
+- 📧 Email: suyashhadole14@gmail.com  
+- 💼 LinkedIn: https://linkedin.com/in/yourprofile  
+- 📱 Phone: 8459660765  
+
+⭐ Support
+If you like this project, give it a ⭐ on GitHub!
