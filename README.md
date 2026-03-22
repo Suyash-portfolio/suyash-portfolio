@@ -1,6 +1,8 @@
 ## Hi there 👋
 # 👨‍💻 Suyash Hadole Portfolio
 
+**Portfolio Link:- https://suyash-portfolio.github.io/suyash-portfolio/ **
+
 🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE)  
 💡 Passionate about building intelligent systems & real-world impactful solutions  
 
@@ -39,7 +41,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 
 📬 Contact Me
 - 📧 Email: suyashhadole14@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/yourprofile   
+- 💼 LinkedIn: https://www.linkedin.com/in/suyash-hadole/  
 
 ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
