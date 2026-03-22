@@ -39,8 +39,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 
 📬 Contact Me
 - 📧 Email: suyashhadole14@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/yourprofile  
-- 📱 Phone: 8459660765  
+- 💼 LinkedIn: https://linkedin.com/in/yourprofile   
 
 ⭐ Support
 If you like this project, give it a ⭐ on GitHub!
