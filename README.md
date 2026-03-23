@@ -15,7 +15,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 - 💡 Strong interest in AI, Data Science & Web Development  
 
 🛠 Tech Stack
-- 💻 Languages: HTML, CSS, JavaScript, Python, C  
+- 💻 Languages: C++, Java, HTML, CSS, JavaScript, Python, C  
 - 📊 Data: SQL, Data Analysis  
 - 🤖 AI/ML: Machine Learning Basics, Model Building  
 - 🌐 Tools: GitHub, VS Code  
