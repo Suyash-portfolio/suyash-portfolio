@@ -18,9 +18,10 @@ I focus on building real-world projects that solve practical problems using AI, 
 - 💻 Languages: C++, Java, HTML, CSS, JavaScript, Python, C  
 - 📊 Data: SQL, Data Analysis  
 - 🤖 AI/ML: Machine Learning Basics, Model Building  
-- 🌐 Tools: GitHub, VS Code, Tableu
+- 🌐 Tools: GitHub, VS Code, Tableu, Orange.
 
-📂 Featured Projects
+📂 Featured Projects:-
+
 🌱 GrowTogether – Smart Farming Platform
 - AI-powered agriculture support system  
 - Features land verification, payment tracking, and crop monitoring  
