@@ -16,7 +16,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 
 🛠 Tech Stack
 - 💻 Languages: C++, Java, HTML, CSS, JavaScript, Python, C  
-- 📊 Data: SQL, Data Analysis  
+- 📊 Data: SQL, Data Analysis.
 - 🤖 AI/ML: Machine Learning Basics, Model Building  
 - 🌐 Tools: GitHub, VS Code, Tableu, Orange.
 
