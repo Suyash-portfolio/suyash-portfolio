@@ -11,7 +11,7 @@ I am a Computer Science student specializing in Artificial Intelligence & Machin
 I focus on building real-world projects that solve practical problems using AI, data, and modern web technologies.
 
 - 🎓 B.Tech CSE (AIML) – MITAOE (2024–2028)  
-- 🏆 AAAI Membership & Outreach Coordinator  
+- 🏆 Association for the Advancement of Artifitial Inteligance(AAAI) Membership & Outreach Coordinator  
 - 💡 Strong interest in AI, Data Science & Web Development  
 
 🛠 Tech Stack
