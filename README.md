@@ -1,7 +1,6 @@
 ## Hi there 👋
 # 👨‍💻 Suyash Hadole Portfolio
 **Portfolio Link:- https://suyash-portfolio.github.io/suyash-portfolio/ **
-![Uploading image.png…]()
 
 
 🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE)  
