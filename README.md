@@ -24,6 +24,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 - 🌐 Tools: GitHub, VS Code, Tableu, Orange.
 
 📂 Featured Projects:-
+
 🌱 GrowTogether – Smart Farming Platform
 - AI-powered agriculture support system  
 - Features land verification, payment tracking, and crop monitoring  
