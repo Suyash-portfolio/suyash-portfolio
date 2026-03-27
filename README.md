@@ -15,7 +15,7 @@ I focus on building real-world projects that solve practical problems using AI, 
 
 - 🎓 B.Tech CSE (AIML) – MITAOE (2024–2028)  
 - 🏆 Association for the Advancement of Artifitial Inteligance(AAAI) Membership & Outreach Coordinator  
-- 💡 Strong interest in AI, Data Science & Web Development  
+- 💡 Strong interest in AI-ML, Data Science & Web Development  
 
 🛠 Tech Stack
 - 💻 Languages: C++, Java, HTML, CSS, JavaScript, Python, C  
