@@ -7,6 +7,7 @@
 </a>
 
 🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE).
+
 💡 Passionate about building intelligent systems & real-world impactful solutions.  
 
 🚀 About Me
