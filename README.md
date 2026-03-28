@@ -6,8 +6,8 @@
          src="https://github.com/user-attachments/assets/81658a7e-31a8-4a5e-97a4-9b729aff07e3">
 </a>
 
-🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE)  
-💡 Passionate about building intelligent systems & real-world impactful solutions  
+🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE).
+💡 Passionate about building intelligent systems & real-world impactful solutions.  
 
 🚀 About Me
 I am a Computer Science student specializing in Artificial Intelligence & Machine Learning.  
