@@ -38,3 +38,14 @@ I focus on building real-world projects that solve practical problems using AI, 
 - Data-driven insights using SQL  
 - Real-world dataset analysis and reporting  
 
+🏆 Achievements
+- 🥈 IIT Delhi Campus Ambassider for BEcon' 2026 
+- 🏅 Best Glorification Award  
+- 🤝 AAAI Membership & Leadership Role  
+
+📬 Contact Me
+- 📧 Email: suyashhadole14@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/suyash-hadole/  
+
+⭐ Support
+If you like this project, give it a ⭐ on GitHub!
