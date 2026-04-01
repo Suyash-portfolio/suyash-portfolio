@@ -1,4 +1,4 @@
-## Hi there 👋                                                                                                                   
+## Hi there 👋
 # 👨‍💻 Suyash Hadole's Portfolio
 **Portfolio Link:- https://suyash-portfolio.github.io/suyash-portfolio/ **
 <a href="https://suyash-portfolio.github.io/suyash-portfolio/" target="_blank">
