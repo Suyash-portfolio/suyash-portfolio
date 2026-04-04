@@ -8,7 +8,7 @@
                                        
 🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE).                                
 💡 Passionate about building intelligent systems & real-world impactful solutions.  
-
+                             
 🚀 About Me
 I am a Computer Science student specializing in Artificial Intelligence & Machine Learning.  
 I focus on building real-world projects that solve practical problems using AI, data, and modern web technologies.
