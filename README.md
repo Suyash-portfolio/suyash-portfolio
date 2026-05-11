@@ -13,15 +13,21 @@
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Suyash-portfolio&show_icons=true&theme=tokyonight" height="180em"/>
-  
-  <img src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight" height="180em"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suyash-portfolio&theme=tokyo-night&hide_border=true&area=true"/>
-</p>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Suyash-portfolio&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" />
+
+<img width="49%" src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight&hide_border=true&border_radius=10" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Suyash-portfolio&theme=tokyo-night&hide_border=true&area=true"/>
+
+</div>
 
 ---
 
