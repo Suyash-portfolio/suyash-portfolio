@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Suyash Hadole</h1>
 
 <h3 align="center">
-🚀 AI & ML Enthusiast | Full Stack Developer | CSE-AIML Student
+🚀 AI & ML Enthusiast | CSE-AIML Student | AAAI Member
 </h3>
 
 <p align="center">
