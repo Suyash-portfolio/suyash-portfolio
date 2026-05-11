@@ -15,9 +15,7 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Suyash-portfolio&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" />
-
-<img width="49%" src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight&hide_border=true&border_radius=10" />
+<img width="60%" src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight&hide_border=true&border_radius=10" />
 
 </div>
 
