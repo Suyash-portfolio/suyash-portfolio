@@ -1,79 +1,144 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Suyash Hadole</h1>
 
-# 👨‍💻 Suyash Hadole's Portfolio
+<h3 align="center">
+🚀 AI & ML Enthusiast | Full Stack Developer | CSE-AIML Student
+</h3>
 
-**Portfolio Link:- https://suyash-portfolio.github.io/suyash-portfolio/**
+<p align="center">
+  <a href="https://suyash-portfolio.github.io/suyash-portfolio/">
+    <img src="https://img.shields.io/badge/🌐 Portfolio-Visit Website-black?style=for-the-badge" />
+  </a>
 
-<a href="https://suyash-portfolio.github.io/suyash-portfolio/" target="_blank">
-    <img width="1894" height="916" alt="screen"
-         src="https://github.com/user-attachments/assets/81658a7e-31a8-4a5e-97a4-9b729aff07e3">
-</a>
+  <a href="https://www.linkedin.com/in/suyash-hadole/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+  </a>
 
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="60%" src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight&hide_border=true&border_radius=10" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Suyash-portfolio&theme=tokyo-night&hide_border=true&area=true"/>
-
-</div>
+  <img src="https://komarev.com/ghpvc/?username=Suyash-portfolio&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
+</p>
 
 ---
 
-🚀 AI & ML Enthusiast | CSE-AIML Student @ MIT Academy of Engineering (MITAOE).                                
-💡 Passionate about building intelligent systems & real-world impactful solutions.  
+# 👨‍💻 Portfolio Preview
 
-## 🚀 About Me
+<p align="center">
+  <a href="https://suyash-portfolio.github.io/suyash-portfolio/" target="_blank">
+      <img width="100%" alt="Portfolio Preview"
+      src="https://github.com/user-attachments/assets/81658a7e-31a8-4a5e-97a4-9b729aff07e3">
+  </a>
+</p>
 
-I am a Computer Science student specializing in Artificial Intelligence & Machine Learning.  
-I focus on building real-world projects that solve practical problems using AI, data, and modern web technologies.
+---
 
-- 🎓 B.Tech CSE (AIML) – MITAOE (2024–2028)  
-- 🏆 Association for the Advancement of Artificial Intelligence (AAAI) Membership & Outreach Coordinator  
-- 💡 Strong interest in AI-ML, Data Science & Web Development  
+# 📈 GitHub Activity
 
-## 🛠 Tech Stack
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Suyash-portfolio&theme=tokyonight&hide_border=true&border_radius=10" width="60%" />
+</p>
 
-- 💻 Languages: C++, Java, HTML, CSS, JavaScript, Python, C  
-- 📊 Data: SQL, Data Analysis  
-- 🤖 AI/ML: Machine Learning Basics, Model Building  
-- 🌐 Tools: GitHub, VS Code, Tableau, Orange  
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suyash-portfolio&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+</p>
 
-## 📂 Featured Projects
+---
 
-### 🌱 GrowTogether – Smart Farming Platform
-- AI-powered agriculture support system  
-- Features land verification, payment tracking, and crop monitoring  
-- Focused on real-world farmer problems  
+# 🚀 About Me
 
-### 🤖 MITAOE Chatbot
-- AI-based chatbot for student assistance  
-- Handles queries related to college activities and information  
+<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-### 📊 SQL Data Analysis Project
-- Data-driven insights using SQL  
-- Real-world dataset analysis and reporting  
+🎓 Pursuing **B.Tech in Computer Science Engineering (AIML)** at  
+**MIT Academy of Engineering (MITAOE), Pune**
 
-## 🏆 Achievements
+💡 Passionate about:
+- Artificial Intelligence & Machine Learning
+- Full Stack Web Development
+- Data Science & Intelligent Systems
+- Real-world Problem Solving
 
-- 🥈 IIT Delhi Campus Ambassador for BEcon' 2026  
-- 🏅 Best Glorification Award  
-- 🤝 AAAI Membership & Leadership Role  
+🏆 Currently serving as:
+- AAAI Membership & Outreach Coordinator
+- IIT Delhi BEcon' 2026 Campus Ambassador
 
-## 📬 Contact Me
+🌱 Continuously learning:
+- Advanced Machine Learning
+- Modern Web Technologies
+- AI-powered Applications
 
-- 📧 Email: suyashhadole14@gmail.com  
-- 💼 LinkedIn: https://www.linkedin.com/in/suyash-hadole/  
+---
 
-## ⭐ Support
+# 🛠 Tech Stack
 
-If you like this project, give it a ⭐ on GitHub!
+## 💻 Languages
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,java,python,js,html,css,c" />
+</p>
+
+## 🤖 AI / ML / Data
+<p>
+<img src="https://skillicons.dev/icons?i=python" />
+<img src="https://img.shields.io/badge/Machine%20Learning-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data%20Analysis-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/SQL-black?style=for-the-badge" />
+</p>
+
+## ⚒️ Tools & Platforms
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" />
+</p>
+
+---
+
+# 📂 Featured Projects
+
+## 🌱 GrowTogether – Smart Farming Platform
+🔹 AI-powered agriculture support system  
+🔹 Land verification & payment tracking  
+🔹 Crop monitoring dashboard  
+🔹 Focused on solving real-world farmer problems  
+
+---
+
+## 🤖 MITAOE Chatbot
+🔹 AI-based student assistance chatbot  
+🔹 Handles academic & college-related queries  
+🔹 Improves accessibility of information  
+
+---
+
+## 📊 SQL Data Analysis Project
+🔹 Data-driven insights using SQL  
+🔹 Real-world dataset analysis  
+🔹 Reporting & visualization techniques  
+
+---
+
+# 🏆 Achievements
+
+🥈 IIT Delhi Campus Ambassador for BEcon' 2026  
+🏅 Best Glorification Award  
+🤝 AAAI Leadership & Outreach Role  
+💡 Active participation in AI & Tech Communities  
+
+---
+
+# 📬 Connect With Me
+
+<p align="center">
+  <a href="mailto:suyashhadole14@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/suyash-hadole/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/Suyash-portfolio">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<h3 align="center">
+⭐ If you like my work, consider giving a star to my repositories!
+</h3>
