@@ -27,11 +27,6 @@
   </a>
 </p>
 
-```markdown
----
-
----
-
 # 📄 Resume
 
 <p align="center">
@@ -49,8 +44,6 @@
 <p align="center">
   <i>Click the preview above to view my complete resume.</i>
 </p>
-
----
 
 
 # 📈 GitHub Activity
