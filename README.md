@@ -37,7 +37,7 @@
 
 <p align="center">
   <a href="./resume.pdf" target="_blank">
-    <img width="80%" src="./screen.png" alt="Resume Preview"/>
+    <img width="80%" src="./screen resume.png" alt="Resume Preview"/>
   </a>
 </p>
 
