@@ -31,13 +31,13 @@
 
 <p align="center">
   <a href="./resume.pdf" target="_blank">
-    <img src="https://img.shields.io/badge/📄%20View%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+    <img width="80%" src="./screen resume.jpg" alt="Resume Preview"/>
   </a>
 </p>
 
 <p align="center">
   <a href="./resume.pdf" target="_blank">
-    <img width="80%" src="./screen resume.jpg" alt="Resume Preview"/>
+    <img src="https://img.shields.io/badge/📄%20View%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
   </a>
 </p>
 
