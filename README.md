@@ -27,7 +27,36 @@
   </a>
 </p>
 
+```markdown
 ---
+
+# 📄 Resume
+
+<p align="center">
+  <a href="./resume.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/📄%20View%20Resume-PDF-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+  </a>
+
+  <a href="./resume.pdf" download>
+    <img src="https://img.shields.io/badge/⬇️%20Download%20Resume-PDF-blue?style=for-the-badge"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="./resume.pdf" target="_blank">
+    <img width="85%"
+    src="https://raw.githubusercontent.com/Suyash-portfolio/Suyash-portfolio/main/resume-preview.png"
+    alt="Resume Preview">
+  </a>
+</p>
+
+<p align="center">
+  <i>Click the preview above to view my complete resume.</i>
+</p>
+
+---
+```
+
 
 # 📈 GitHub Activity
 
