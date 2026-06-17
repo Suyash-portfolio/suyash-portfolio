@@ -2141,7 +2141,9 @@ function sendMsg(btn){
       }, 3000);
     })
     .catch(function(error){
-      console.error('EMAILJS ERROR:', error);
+  console.log("EMAILJS ERROR");
+  console.log(error);
+  alert(JSON.stringify(error));
       btn.innerHTML        = '<span>❌ Failed</span>';
       btn.style.background = '#ef4444';
       setTimeout(function(){
