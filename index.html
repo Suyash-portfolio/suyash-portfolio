@@ -2125,7 +2125,12 @@ function sendMsg(btn){
     message:    message
   };
 
-  emailjs.send('service_kt2p9jw', 'template_8q1894o', params)
+  emailjs.send(
+    "service_kt2p9jw",
+    "template_8q1894o",
+    params,
+    "xGvmnXRxlRxWNlnmt"
+)
     .then(function(response){
       console.log('SUCCESS', response);
       btn.innerHTML         = '<span>✅ Message Sent!</span>';
