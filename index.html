@@ -1877,52 +1877,63 @@ document.querySelectorAll('.bp,.bo,.bsend,.ncta').forEach(function(btn){
 });
 
 
-/* ═══════════════════ SEND MESSAGE (FIX: proper validation + mailto fallback) ═══════════════════ */
+/* ═══════════════════ SEND MESSAGE (EmailJS) ═══════════════════ */
 function sendMsg(btn){
-  const name    = document.getElementById('f-name').value.trim();
-  const email   = document.getElementById('f-email').value.trim();
-  const subject = document.getElementById('f-subject').value.trim();
-  const message = document.getElementById('f-message').value.trim();
-  const status  = document.getElementById('form-status');
+  var name    = document.getElementById('name').value.trim();
+  var email   = document.getElementById('email').value.trim();
+  var title   = document.getElementById('title').value.trim();
+  var message = document.getElementById('message').value.trim();
 
-  /* Basic validation */
-  if(!name || !email || !message){
-    status.textContent = '⚠️ Please fill in your name, email, and message.';
-    status.className   = 'error';
-    status.style.display = 'block';
-    return;
-  }
-  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
-    status.textContent = '⚠️ Please enter a valid email address.';
-    status.className   = 'error';
-    status.style.display = 'block';
+  if(!name || !email || !title || !message){
+    alert('Please fill all fields.');
     return;
   }
 
-  /* Mailto fallback — opens default mail client pre-filled */
-  const body = encodeURIComponent(
-    'Hi Suyash,\n\n' + message + '\n\nFrom: ' + name + '\nEmail: ' + email
-  );
-  const sub  = encodeURIComponent(subject || 'Portfolio Enquiry');
-  window.location.href = 'mailto:suyashhadole14@gmail.com?subject=' + sub + '&body=' + body;
+  var original = btn.innerHTML;
+  btn.innerHTML = '<span>⏳ Sending...</span>';
+  btn.disabled  = true;
 
-  /* Visual feedback */
-  const orig = btn.innerHTML;
-  btn.innerHTML = '<span>✅ Opening your mail app…</span>';
-  btn.style.background = '#22c55e';
-  btn.disabled = true;
+  var params = {
+    from_name:  name,
+    from_email: email,
+    subject:    title,
+    message:    message
+  };
 
-  status.textContent = '✅ Your default mail app has been opened with your message pre-filled!';
-  status.className   = 'success';
-  status.style.display = 'block';
-
-  setTimeout(function(){
-    btn.innerHTML = orig;
-    btn.style.background = '';
-    btn.disabled = false;
-    status.style.display = 'none';
-  }, 4000);
+  emailjs.send(
+    "service_kt2p9jw",
+    "template_8q1894o",
+    params,
+    "xGvmnXRxlRxWNlnmt"
+)
+    .then(function(response){
+      console.log('SUCCESS', response);
+      btn.innerHTML         = '<span>✅ Message Sent!</span>';
+      btn.style.background  = '#22c55e';
+      document.getElementById('name').value    = '';
+      document.getElementById('email').value   = '';
+      document.getElementById('title').value   = '';
+      document.getElementById('message').value = '';
+      setTimeout(function(){
+        btn.innerHTML        = original;
+        btn.style.background = '';
+        btn.disabled         = false;
+      }, 3000);
+    })
+    .catch(function(error){
+  console.log("EMAILJS ERROR");
+  console.log(error);
+  alert(JSON.stringify(error));
+      btn.innerHTML        = '<span>❌ Failed</span>';
+      btn.style.background = '#ef4444';
+      setTimeout(function(){
+        btn.innerHTML        = original;
+        btn.style.background = '';
+        btn.disabled         = false;
+      }, 3000);
+    });
 }
 </script>
+
 </body>
 </html>
