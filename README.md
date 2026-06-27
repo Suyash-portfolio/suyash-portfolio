@@ -71,9 +71,11 @@
 - Data Science & Intelligent Systems
 - Real-world Problem Solving
 
-🏆 Currently serving as:
-- AAAI Membership & Outreach Coordinator
-- IIT Delhi BEcon' 2026 Campus Ambassador
+🏆 Leadership & Professional Roles
+• AI/ML Intern | Sagveek Technologies Pvt. Ltd.
+• Selected for Amazon ML Summer School 2026
+• AAAI Membership & Outreach Coordinator
+• IIT Delhi BEcon' 2026 Campus Ambassador
 
 🌱 Continuously learning:
 - Advanced Machine Learning
@@ -107,7 +109,7 @@
 
 # 📂 Featured Projects
 
-## 🌱 GrowTogether – Smart Farming Platform
+## 🌱 AgroPulse – The Future of Smart Farming Starts Here
 🔹 AI-powered agriculture support system  
 🔹 Land verification & payment tracking  
 🔹 Crop monitoring dashboard  
