@@ -23,7 +23,7 @@
 <p align="center">
   <a href="https://suyash-portfolio.github.io/suyash-portfolio/" target="_blank">
       <img width="100%" alt="Portfolio Preview"
-      src="https://github.com/user-attachments/assets/81658a7e-31a8-4a5e-97a4-9b729aff07e3">
+      src="./screen">
   </a>
 </p>
 
