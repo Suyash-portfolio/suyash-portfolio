@@ -72,10 +72,10 @@
 - Real-world Problem Solving
 
 🏆 Leadership & Professional Roles
-• AI/ML Intern | Sagveek Technologies Pvt. Ltd.
-• Selected for Amazon ML Summer School 2026
-• AAAI Membership & Outreach Coordinator
-• IIT Delhi BEcon' 2026 Campus Ambassador
+- AI/ML Intern | Sagveek Technologies Pvt. Ltd.
+- Selected for Amazon ML Summer School 2026
+- AAAI Membership & Outreach Coordinator
+- IIT Delhi BEcon' 2026 Campus Ambassador
 
 🌱 Continuously learning:
 - Advanced Machine Learning
