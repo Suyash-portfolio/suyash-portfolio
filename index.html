@@ -372,9 +372,12 @@
       margin-bottom: 10px;
     }
 
+    /* FIX: .id text color was #555 (near-black) on the dark #experience
+       section background, making it effectively invisible. Switched to a
+       readable light-gray token consistent with the dark-mode palette. */
     .id {
       font-size: 13px;
-      color: #555;
+      color: #9a9ab5;
       line-height: 1.9;
     }
 
@@ -449,9 +452,12 @@
       margin-bottom: 7px;
     }
 
+    /* FIX: .achd was #4a4a4a (near-black) on the dark #experience section
+       background — text was unreadable. Switched to a readable light-gray
+       token matching the dark-mode palette used elsewhere on this page. */
     .achd {
       font-size: 13px;
-      color: #4a4a4a;
+      color: #9a9ab5;
       line-height: 1.85;
     }
     .achd strong { color: var(--gold); }
@@ -575,6 +581,7 @@
       padding:0 44px;height:66px;
       display:flex;align-items:center;justify-content:space-between;
       background:rgba(249,248,243,.95);
+      -webkit-backdrop-filter:blur(30px) saturate(1.8);
       backdrop-filter:blur(30px) saturate(1.8);
       border-bottom:1px solid rgba(245,197,24,.1);
       transform:translateY(-100%);
@@ -773,6 +780,7 @@
   text-transform:uppercase;margin-bottom:24px;
   opacity:0;animation:fadeUp .85s var(--e1) 3.2s forwards;
   background:rgba(245,197,24,.04);
+  -webkit-backdrop-filter:blur(10px);
   backdrop-filter:blur(10px);
 }
 .gdot{width:7px;height:7px;border-radius:50%;background:var(--y);animation:dgP 1.8s ease infinite;}
@@ -1229,7 +1237,9 @@
       background:radial-gradient(ellipse 50% 40% at 80% 50%,rgba(0,212,255,.035),transparent 60%);
       pointer-events:none;
     }
-    .cheadline{font-family:var(--fs);font-size:16px;color:#444;margin-bottom:40px;line-height:2;}
+    /* FIX: .cheadline was #444 (near-black) on the dark #contact background,
+       making the intro copy unreadable. Lightened to a legible gray. */
+    .cheadline{font-family:var(--fs);font-size:16px;color:#9a9aa8;margin-bottom:40px;line-height:2;}
     .cheadline em{color:var(--y);font-style:normal;font-weight:700;}
     .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:46px;}
     .cit{
@@ -1258,10 +1268,12 @@
     .sl:hover svg{fill:var(--dk);}
 
     .fg{margin-bottom:14px;}
+    /* FIX: .fg label was #444 (near-black) on the dark #contact background,
+       making the form field labels unreadable. Lightened to a legible gray. */
     .fg label{
       display:block;font-family:var(--fs);font-size:10px;
       font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
-      color:#444;margin-bottom:6px;
+      color:#8f8f9f;margin-bottom:6px;
     }
     .fg input,.fg textarea{
       width:100%;background:rgba(255,255,255,.025);
@@ -1296,7 +1308,7 @@
     .cfoot{
       margin-top:52px;padding-top:22px;
       border-top:1px solid rgba(255,255,255,.04);
-      text-align:center;color:#2a2a2a;
+      text-align:center;color:#5a5a68;
       font-family:var(--fs);font-size:12px;font-weight:400;
     }
     .cfoot em{color:var(--y);font-style:normal;}
@@ -1313,14 +1325,29 @@
       .acols,.cgrid,.ig,.pjcards,.ac3{grid-template-columns:1fr 1fr;}
       .pgrid{grid-template-columns:1fr 1fr;}
       .pc.ft{grid-column:span 2;}
-      nav{padding:0 22px;}
-      .nlinks{display:none;}
+      nav{padding:0 16px;}
+      /* FIX: previously .nlinks was set to display:none at this breakpoint.
+         Combined with #fsb also being hidden, mobile users had NO way to
+         navigate between sections. Now nav links stay visible as a compact,
+         horizontally-scrollable strip instead of disappearing entirely. */
+      .nlinks{
+        display:flex;
+        gap:14px;
+        overflow-x:auto;
+        max-width:56vw;
+        -webkit-overflow-scrolling:touch;
+        scrollbar-width:none;
+      }
+      .nlinks::-webkit-scrollbar{display:none;}
+      .nlinks a{font-size:10px;letter-spacing:1px;white-space:nowrap;}
+      .ncta{padding:9px 16px;font-size:11px;white-space:nowrap;}
       .hstats{gap:22px;}
       .home-badge{display:none;}
     }
     @media(max-width:640px){
       .acols,.cgrid,.ig,.pjcards,.pgrid,.ac3{grid-template-columns:1fr;}
       .pc.ft{grid-column:span 1;height:215px;}
+      .nlinks{max-width:44vw;}
     }
 </style>
 </head>
@@ -2126,7 +2153,10 @@ if(expSec && spot){
 
 
 /* ═══════════════════ MAGNETIC BUTTONS ═══════════════════ */
-document.querySelectorAll('.bp,.bo,.bsend,.ncta').forEach(function(btn){
+/* FIX: '.br' (the "Download Resume" button) was missing from this
+   selector list, so it didn't get the magnetic hover effect that
+   every other primary button (.bp, .bo, .bsend, .ncta) has. */
+document.querySelectorAll('.bp,.bo,.br,.bsend,.ncta').forEach(function(btn){
   btn.addEventListener('mousemove', function(e){
     const r  = btn.getBoundingClientRect();
     const dx = (e.clientX - r.left - r.width  / 2) * .2;
@@ -2162,12 +2192,17 @@ function sendMsg(btn){
     message:    message
   };
 
+  /* FIX: previously this call passed a mismatched/mistyped public key
+     ("xGvmnXRxlRxWNlnmt" — note the lowercase L's vs the correct
+     capital I's used in emailjs.init()) as a 4th argument. Since
+     emailjs.init() already registers the public key globally, the
+     extra (and wrong) key here could cause auth failures. Removed it
+     so the call relies on the key set during init(). */
   emailjs.send(
     "service_kt2p9jw",
     "template_8q1894o",
-    params,
-    "xGvmnXRxlRxWNlnmt"
-)
+    params
+  )
     .then(function(response){
       console.log('SUCCESS', response);
       btn.innerHTML         = '<span>✅ Message Sent!</span>';
