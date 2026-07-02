@@ -1114,12 +1114,11 @@
 
     #portfolio{background:var(--lt2);}
     .pgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
- .pc{
+.pc{
     position:relative;
     overflow:hidden;
     border-radius:18px;
-    transition:transform .55s cubic-bezier(0.16,1,0.3,1),
-               box-shadow .55s cubic-bezier(0.16,1,0.3,1);
+    z-index:1;
 }
     .pc::before{
       content:'';position:absolute;inset:0;z-index:1;
@@ -1138,12 +1137,18 @@
     padding:24px;
     display:flex;
     align-items:flex-end;
+
+    z-index:100;          /* ADD */
+
+    pointer-events:auto;  /* ADD */
+
     background:linear-gradient(
         to top,
         rgba(0,0,0,.75) 0%,
         rgba(0,0,0,.25) 50%,
         transparent 100%
     );
+
     opacity:0;
     transform:translateY(30px);
     transition:all .5s cubic-bezier(0.16,1,0.3,1);
@@ -1577,7 +1582,12 @@
     <div class="sd reveal"></div>
     <div class="pgrid">
       <div class="pc ft reveal">
-	<div class="pci" style="background:linear-gradient(135deg,#0F766E,#14B8A6,#2DD4BF)">
+	 <div class="pci" style="
+background:linear-gradient(135deg,#0F766E,#14B8A6,#2DD4BF);
+position:relative;
+z-index:1;
+pointer-events:none;
+">
     <img src="logo.png" alt="Logo"
          style="width:250px;height:250px;object-fit:contain;border-radius:16px;">
 </div>
@@ -1586,11 +1596,12 @@
             <div class="pit" style="font-size:18px">AgroPulse – The Pulse of Smart Farming</div>
             <div class="pic">React · Node.js · Express · Supabase · Frontend · API</div>
             <div class="pds">Full-stack collaborative platform with REST API, JWT auth, real-time features &amp; responsive dashboard.</div>
-            <div class="pov-links"><a class="pov-lnk pov-lnk-live" href="https://agropulse-ai.netlify.app/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="live-btn"
->
+            <div class="pov-links"><a class="pov-lnk pov-lnk-live"
+   href="https://growtogether-ai.netlify.app/"
+   target="_blank"
+   rel="noopener noreferrer"
+   onclick="event.stopPropagation();"
+   style="position:relative;z-index:9999;">
   🚀 LIVE APP
 </a></div>
           </div>
